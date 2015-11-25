@@ -1,23 +1,35 @@
-name: House Groszko
 favicon: null
-layout_spectrum: 0.8627075576223433
-typography_spectrum: 0.48582229227758944
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: House Groszko
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors: []
-  brandStrength: 0.044937820406630635
-  lightness: 0.06258965493179858
-  saturation: 0.6086015414912254
-  rhythmicContrast: 0.7097494478803128
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.7158969
+  brandStrength: 0.04493782040663064
+  lightness: 0.5816327
+  brandColors: []
+  rhythmicContrast: 0.7097495
+typography_spectrum: 0.1401718
+layout_spectrum: 1
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
